@@ -4,8 +4,10 @@
 
 // * usando el snipet "rafc"
 
+const myFunction = (a,b) => a+b;
+
 export const HelloWorldApp = () => {
   return (
-    <h1>HelloWorld App</h1>
+    <h1>{myFunction(1,2)}</h1>
   )
 }
