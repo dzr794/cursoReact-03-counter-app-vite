@@ -7,7 +7,6 @@ import './styles.less';
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
   <React.StrictMode>
-    <HelloWorldApp />
-    <FirstApp />
+    <FirstApp title={123} />
   </React.StrictMode>
 );
