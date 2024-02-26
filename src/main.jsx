@@ -8,6 +8,7 @@ import './styles.less';
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
   <React.StrictMode>
-    <CounterApp value={2} />
+    {/* <FirstApp title="Holi"/> */}
+    <CounterApp value={20} />
   </React.StrictMode>
 );
